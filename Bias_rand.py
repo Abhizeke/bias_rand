@@ -34,4 +34,4 @@ for i in range(0,RV):
 		PL-=1
 PER = ((RV*73)/100)
 print ("Total no. of Random number generated is ",R, "Total no. of HigherBias random number is ", PER)
-print ("SUCCESSFUL, you can check the output.txt for all generated numbers")
+print ("SUCCESSFUL, you can also check the output.txt file for all generated numbers")
