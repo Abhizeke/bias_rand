@@ -9,7 +9,7 @@ R=input("Number of random number you want to generate:")
 
 RV=R+1
 MID=(UR+LR)/2
-print (LR, UR, MID, PH, PL) 
+
 for i in range(0,RV):
 
 	PH+=0.73
@@ -32,5 +32,3 @@ for i in range(0,RV):
 		f.write("LowerBias  :{}".format(RN)+ '\n')
 		f.close()
 		PL-=1
-	print ("PH:", PHR)
-	print ("PL:", PLR)
