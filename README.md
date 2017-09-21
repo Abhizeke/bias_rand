@@ -5,7 +5,8 @@ Like if I want a random number between 1 to 10 100times then it should give numb
 Every number generate has the probality of 73% to be lies between the Middle value & Higher Value.
 
 Prerequisites
-Python 2.7
+
+	Python 2.7
 
 Algorithm
 
