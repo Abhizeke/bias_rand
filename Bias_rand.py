@@ -32,3 +32,6 @@ for i in range(0,RV):
 		f.write("LowerBias  :{}".format(RN)+ '\n')
 		f.close()
 		PL-=1
+PER = ((RV*73)/100)
+print ("Total no. of Random number generated is ",R, "Total no. of HigherBias random number is ", PER)
+print ("SUCCESSFUL, you can check the output.txt for all generated numbers")
