@@ -9,25 +9,26 @@ Python 2.7
 
 Algorithm
 
-PH = 0 ; PL = 0 ; RH = 0 ; LR ; UR
+	PH = 0 ; PL = 0 ; RH = 0 ; LR ; UR
 
-MID = (UR + LR)/2
-PH = PH + 0.73
-PL = PL + 0.27
+	MID = (UR + LR)/2
+	PH = PH + 0.73
+	PL = PL + 0.27
 
-if PH > 1:
-    RH = random.randint (MID, UR)
-    return RN
-    PH = PH - 1
+	if PH > 1:
+    		RH = random.randint (MID, UR)
+    		return RN
+    		PH = PH - 1
 
 
-if PL > 1:
-    RH =  random.randint (LR, MID)
-    retrun RN
-    PL = PL - 1
+	if PL > 1:
+    		RH =  random.randint (LR, MID)
+    		retrun RN
+    		PL = PL - 1
 
 
 Explanation 
+
 Let A is a event to occur. 
 Probability of getting A
 
