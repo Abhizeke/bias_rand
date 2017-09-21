@@ -41,6 +41,10 @@ we have the probability
 	P(x) = 1/100
 
 But in our case we need a number with 73% biased to higher limit.
-Therfore we need to increare the probability of all number between MID to UR with 73.
-PH = PH + 0.73
-everything when PH >1 our algorithm generates the number from highr Bias, deduct the 1 from PH, remaining value of PH wait till it becomes complete 1 to regenrate the next value.
+Therfore we need to increase the probability of  numbers between MID to UR with 73%.
+
+	PH = PH + 0.73
+	
+now, everything when PH >1 our algorithm generates a number lies between MID to UR, then deduct the 1 from PH, remaining value of PH wait till it becomes complete 1 again to regenrate the next value.
+
+Same happen with PL where it increases with 0.27
