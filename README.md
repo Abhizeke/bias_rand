@@ -1,8 +1,13 @@
 Synopsis
 
-Biased Random number Generation Algorithm generate  the random number(s) which should be 73% biased to the higher number.
-Like if I want a random number between 1 to 10 100times then it should give number more than 5 73times and less than 5 27times.
+This program is to generate random number with the condition 73% of total generated should be higher side and 27% lower side of required number span e.g.
+if I want a random number between 1 to 10 100times then it should give number more than 5 73times and less than 5 27times.
 Every number generate has the probality of 73% to be lies between the Middle value & Higher Value.
+
+Working
+
+Divide single number into two parts according to percentage and add up each part separately.
+Generate the random number for each part with their condition i.e. higher or lower number. 
 
 Prerequisites
 
